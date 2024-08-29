@@ -21,7 +21,7 @@ function PostForm({post}) {
     })
 
     useEffect(() => {
-        console.log('userData in PostForm:', userData);
+        //console.log('userData in PostForm:', userData);
     }, [userData]);
     
 
