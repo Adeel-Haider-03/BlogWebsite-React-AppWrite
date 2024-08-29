@@ -29,8 +29,8 @@ Make sure you have the following installed:
 
 1. **Clone the repository**
 
-   git clone https://github.com/your-username/blog-website.git
-   cd blog-website
+   git clone https://github.com/Adeel-Haider-03/BlogWebsite-React-AppWrite.git  
+   cd BlogWebsite-React-AppWrite  
 
 2. **Install dependencies**
 
@@ -38,40 +38,40 @@ Make sure you have the following installed:
 
 3. **Configure the environment variables**
 
-   Create a `.env` file in the root directory and add the following environment variables:
+   Create a `.env` file in the root directory and add the following environment variables:  
    
-VITE_APPWRITE_URL=""
-VITE_APPWRITE_PROJECT_ID=""
-VITE_APPWRITE_DATABASE_ID=""
-VITE_APPWRITE_COLLECTION_ID=""
-VITE_APPWRITE_BUCKET_ID=""
-VITE_TINYMCE_KEY=""
+VITE_APPWRITE_URL=""  
+VITE_APPWRITE_PROJECT_ID=""  
+VITE_APPWRITE_DATABASE_ID=""  
+VITE_APPWRITE_COLLECTION_ID=""  
+VITE_APPWRITE_BUCKET_ID=""  
+VITE_TINYMCE_KEY=""  
  
 
 5. **Start the development server**
 
-   npm run dev
+   npm run dev  
 
-   The website will be available at `http://localhost:3000`.
+   The website will be available at `http://localhost:3000`.  
 
 ## Usage
 
-- **Creating Posts**: Use the TinyMCE Editor to create and edit blog posts.
-- **Form Handling**: Manage forms easily with React Hook Form.
-- **Routing**: Navigate between different pages using React Router.
-- **State Management**: Handle global state with Redux Toolkit.
+- **Creating Posts**: Use the TinyMCE Editor to create and edit blog posts.   
+- **Form Handling**: Manage forms easily with React Hook Form.  
+- **Routing**: Navigate between different pages using React Router.  
+- **State Management**: Handle global state with Redux Toolkit.  
 
-## Folder Structure
+## Folder Structure  
 
 
-├── public              # logos
-├── src
-│   ├── assets          # Image and other asset files
-│   ├── components      # Reusable components
-│   ├── pages           # Page components
-│   ├── appwrite        appwrite services
-│   ├── App.js          # Main app component
-│   └── index.js        # Entry point of the application
-├── tailwind.config.js  # Tailwind CSS configuration
-├── vite.config.js      # Vite configuration
-└── package.json        # Project metadata and dependencies
+├── public              # logos  
+├── src  
+│   ├── assets          # Image and other asset files  
+│   ├── components      # Reusable components  
+│   ├── pages           # Page components  
+│   ├── appwrite        appwrite services  
+│   ├── App.js          # Main app component  
+│   └── index.js        # Entry point of the application  
+├── tailwind.config.js  # Tailwind CSS configuration  
+├── vite.config.js      # Vite configuration  
+└── package.json        # Project metadata and dependencies  
