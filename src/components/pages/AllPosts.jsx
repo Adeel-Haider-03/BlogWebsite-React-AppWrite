@@ -43,7 +43,7 @@ function AllPosts() {
     else{
       return(
         <div className='flex place-content-center'>
-        <div className='loader'></div>
+        <div >No Posts to show</div>
         </div>
       )
       
